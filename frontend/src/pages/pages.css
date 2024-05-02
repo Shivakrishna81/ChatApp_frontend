@@ -1,0 +1,168 @@
+.logo{
+    height: 100px;
+    width: 140px;
+    margin-right: 10px;
+}
+.mainContainer{
+    background-color: rgb(38, 45, 49);;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logohead{
+    font-weight: 700;
+    color: rgba(79, 232, 232, 0.801);
+    font-size: 45px;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 29, 29);
+    padding: 30px;
+    border-radius: 8px;
+    margin: 40px;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   margin: 10px;
+}
+.labelHead{
+    font-size: 18px;
+    color: rgba(79, 232, 232, 0.801);
+    font-weight: 400;
+
+}
+.input{
+    height: 30px;
+    min-width: 300px;
+    border: 1px solid rgb(104, 138, 138);
+    border-radius: 6px;
+    background-color: transparent;
+    margin-top: 8px;
+    padding: 8px;
+    color: white;
+}
+.button{
+    background-color: rgba(79, 232, 232, 0.801);
+    height: 45px;
+    color: rgb(21, 29, 29);
+    /* font-family:Georgia; */
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    width: 320px;
+    padding:8px 4px 8px 4px ;
+    margin-left: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.existPara{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(79, 232, 232, 0.801);
+    text-align: center;
+}
+.span{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.avatarMainContiner{
+    background-color: #131324;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.pickHead{
+    color: white;
+}
+.avatars{
+    display: flex;
+    gap: 2rem;
+}
+.avatar{
+    border:0.4rem solid transparent;
+    padding: 0.4rem;
+    transition: 0.5s ease-in-out;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 6rem;
+}
+.selected{
+    border:0.4rem solid #4e0eff;
+}
+.submit-btn{
+    background-color: rgba(79, 232, 232, 0.801);
+    height: 45px;
+    color: rgb(21, 29, 29);
+    /* font-family:Georgia; */
+    padding: 1rem 2rem 0rem 2rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        background-color: #b5adca;
+    }
+    
+}
+.loaderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color:white;
+    height: 100vh;
+    width: 100vw;
+    background-color: #131324;
+}
+.loader{
+    height: 250px;
+    width: 250px;
+}
+
+.chatMainContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(38, 45, 49);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+
+}
+.chatContainer{
+    height: 85vh;
+    width: 85vw;
+    background-color:rgb(21, 29, 29) ;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border-radius: 1rem;
+    @media screen and (min-width:720px) and (max-width:1080px){
+      grid-template-columns: 35% 65%;   
+    }
+}
